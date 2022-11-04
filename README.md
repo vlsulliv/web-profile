@@ -1,28 +1,20 @@
-# Vincent-Sullivan
+![alt text](./assets/img/banner/banner.png)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<span style="color: red"> *** **UNDER CONSTRUCTION** *** </span>
 
-## Mission
+## Table of Contents 
+ * [Screenshot](#Screenshot) 
+ * [Technologies](#Technologies) 
+ * [CodeReference](#CodeReference) 
+ * [Contact](#Contact) 
+ * [License](#License) 
 
-**Digital_Vince created for:**
-a. Job Profile Showcase - Digital_Vince was created to showcase my core values, expirience, and qualifications. Supporting documents are linked to support declarations and as proof of eligibility.
-
-b. Concept exporation - Specifically looked into how CSS implemented CSS concepts.
-
-## Table of Contents<br>
-1. [Mission](#Mission)<br>
-2. [Screenshot](#Screenshot)<br>
-3. [Technologies](#Technologies)<br>
-4. [CodeReference](#CodeReference)<br>
-5. [Contact](#Contact)<br>
-6. [License](#License)<br>
-
-## Screenshot
+# Screenshot
 ```
 PlaceHolder
 ```
 
-## Technologies
+# Technologies
 ```
 HTML
 CSS
@@ -33,23 +25,28 @@ MomentJS
 FontAwesome
 ```
 
-## CodeReference
+# CodeReference
 - [Coding Ground For Developers](https://www.tutorialspoint.com/codingground.htm)
-- [justicon](https://dribbble.com/Justicon)<br>
-- [Guru99](https://www.guru99.com/interactive-javascript-tutorials.html)<br>
-- [W3Schools](https://www.w3schools.com)<br>
-- [moz](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)<br>
-- [learn-js](https://www.learn-js.org/)<br>
-- [codecademy](https://www.codecademy.com/)<br>
-- [HTML Dog](https://htmldog.com/)<br>
-- [JS Cat](http://jsforcats.com/)<br>
-- [JS.com](JavaScript.com)<br>
+- [justicon](https://dribbble.com/Justicon) 
+- [Guru99](https://www.guru99.com/interactive-javascript-tutorials.html) 
+- [W3Schools](https://www.w3schools.com) 
+- [moz](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) 
+- [learn-js](https://www.learn-js.org/) 
+- [codecademy](https://www.codecademy.com/) 
+- [HTML Dog](https://htmldog.com/) 
+- [JS Cat](http://jsforcats.com/) 
+- [JS.com](JavaScript.com) 
 
-## Contact
-- [Gmail](vlsullivanhou@gmail.com)<br>
-- [Yahoo](vlsulliv@yahoo.com)<br>
-- [LinkedIn](https://linkedin.com/vlsulliv/)<br>
-- [GitHub](https://github.com/vlsulliv)<br>
+# Contact
+- [Gmail](vlsullivanhou@gmail.com) 
+- [Yahoo](vlsulliv@yahoo.com) 
+- [LinkedIn](https://linkedin.com/vlsulliv/) 
+- [GitHub](https://github.com/vlsulliv) 
 
-## License
-Licensed under [MIT](https://choosealicense.com/licenses/mit/) license.
+# License
+Created under [MIT](https://choosealicense.com/licenses/mit/) license.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+Made with ❤️ in Houston 

@@ -1,0 +1,253 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+/* viewport size <= 320px ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/*************** Specific to device if required **********************/
+/* stolen from http://nmsdvid.com/snippets/ **************************/
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+/* iPhone5 ------------- */
+@media screen and (device-aspect-ratio: 40/71) {
+	/* Styles */
+}
+or
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Blackberry Torch ---------- */
+@media screen and (max-device-width: 480px) { 
+}
+
+/* Samsung S3 ---------------- */
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+}
+
+/* Google Nexus 7 ------------- */
+@media screen and (device-width: 600px) and (device-height: 905px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+}
+
+/* iPad Mini ------------------ */
+@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1) {
+}
+
+/* iPad 3 (Landscape)-------------------- */
+@media (max-device-width: 1024px) and (orientation: landscape) { 
+}
+
+/* iPad 3 (portrait)-------------------- */
+@media (max-device-width: 768px) and (orientation: portrait) { 
+}
+
+/* Galaxy Tab 10.1 (Landscape) -------- */
+@media (max-device-width: 1280px) and (orientation: landscape) { 
+}
+
+/* Galaxy Tab 10.1 (Portrait) -------- */
+@media (max-device-width: 800px) and (orientation: portrait) { 
+}
+
+/* Retina images ---------------------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+ 
+  /* Retina replacement CSS here */
+ 
+}
+
+
+
+/** RESPONSIVNESS **/
+
+@media screen and (max-width: 760px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 10px;
+    font-size: 8vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+	nav {
+		font-size: 2vw;
+		justify-content: center;
+		padding: 5px;
+		flex-direction: row;
+		align-items: center;
+		/* width: 20px; */
+		text-decoration: none;
+		background-image: none;
+	}
+
+	a:link {
+	  text-decoration: none;
+		/* color: var(--secondary); */
+		width: 100%;
+		font-size: 2.5vw;
+		background-image: none;
+		line-height: 10px;
+	}
+
+	.hero {
+		min-height: 25%;
+	}
+
+	.herotext h2 {
+		padding-left: 5vw;
+		padding-right: 5vw;
+		/* margin-bottom: 3vw; */
+		font-size: 14px;
+	}
+
+	.name {
+		font-size: 8vw;
+		font-family: Roboto;
+	}
+		
+	#about p {
+		font-size: 3.5vw;
+		font-family: Sans Pro;
+	}
+
+	.page-section > h2,
+	.page-section > div {
+		flex: 0 0 100%;
+	}
+
+	.page-section > h2 {
+	  border-right: none;
+	  border-bottom: 4px solid var(--primary);
+	  margin-bottom: 10px;
+	  /* padding-bottom: 5px; */
+	  text-align: left;
+	  font-size: 7vw;
+	}
+
+	.page-section h2 {
+		text-align: center;
+		font-size: 4vw;
+	}
+
+	.links {
+		text-align: center;
+		font-size: 2vw;
+	}
+
+	.links a {
+		text-align: center;
+		font-size: 2vw;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.p1 {
+		background-image: url("../img/compact-size-icon-vector-illustration-260nw-489811306.jpg");
+  	width: auto ;
+  	/* max-width: 100% ; */
+  	height: auto ;
+	}
+
+	.p2 {
+		background-image: url("../img/compact-size-icon-vector-illustration-260nw-489811306.jpg");
+		/* width: 40%; */
+		max-width:50px;
+		/* max-height:100px; */
+	}
+
+	.p3 {
+		background-image: url("../img/dynamite-recipes.png");
+		/* width: 40%; */
+		max-width:50px;
+		/* max-height:100px; */
+	}
+
+	.p4 {
+		background-image: url("../img/Weather-dashboard-v2.png");
+		/* width: 40%; */
+		max-width:50px;
+		/* max-height:100px; */
+	}
+
+	.p5 {
+		background-image: url("../img/scheduler.png");
+		/* width: 40%; */
+		max-width:50px;
+		/* max-height:100px; */
+	}
+} 
+
+
+
+
+
+

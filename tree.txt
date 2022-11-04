@@ -1,0 +1,65 @@
+Folder PATH listing for volume Windows
+Volume serial number is DC56-B8D4
+C:.
++---.vscode
++---assets
+|   +---css
+|   +---img
+|   |   +---favicon
+|   |   +---fontawesome
+|   |   \---fontAwssome
+|   |       +---fontawesome-dark_6.0
+|   |       |   +---css
+|   |       |   +---js
+|   |       |   +---less
+|   |       |   +---scss
+|   |       |   +---sprites
+|   |       |   +---svgs
+|   |       |   |   +---brands
+|   |       |   |   +---regular
+|   |       |   |   \---solid
+|   |       |   \---webfonts
+|   |       \---fontawesome-free-light_6.0
+|   |           \---fontawesome-free-6.0.0-beta3-web
+|   |               +---css
+|   |               +---js
+|   |               +---less
+|   |               +---scss
+|   |               +---sprites
+|   |               +---svgs
+|   |               |   +---brands
+|   |               |   +---regular
+|   |               |   \---solid
+|   |               \---webfonts
+|   \---js
+\---node_modules
+    \---prismjs
+        +---components
+        +---plugins
+        |   +---autolinker
+        |   +---autoloader
+        |   +---command-line
+        |   +---copy-to-clipboard
+        |   +---custom-class
+        |   +---data-uri-highlight
+        |   +---diff-highlight
+        |   +---download-button
+        |   +---file-highlight
+        |   +---filter-highlight-all
+        |   +---highlight-keywords
+        |   +---inline-color
+        |   +---jsonp-highlight
+        |   +---keep-markup
+        |   +---line-highlight
+        |   +---line-numbers
+        |   +---match-braces
+        |   +---normalize-whitespace
+        |   +---previewers
+        |   +---remove-initial-line-feed
+        |   +---show-invisibles
+        |   +---show-language
+        |   +---toolbar
+        |   +---treeview
+        |   +---unescaped-markup
+        |   \---wpd
+        \---themes

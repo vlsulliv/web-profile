@@ -1,0 +1,21 @@
+pret{
+    "users" : {
+        "user1" : {
+            "username" : "Alex",
+            "role" : "Developer",
+            "Location" : "Houston",
+            "date" : "12/11/2023"
+        },
+        "user2" : {
+            "username" : "Chris",
+            "role" : "tester",
+            "Location" : "Dalles",
+            "date" : ":4/11/2023",
+            "user2" : {
+            "username" : "amy",
+            "role" : "designer",
+            "Location" : "Austin",
+            "date" : ":2/24/2021",
+        }
+    }
+}

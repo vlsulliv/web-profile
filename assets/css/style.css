@@ -1,7 +1,6 @@
-// set box sizing to border-box to aide with styling
-* {
+/*  {
 	box-sizing: border-box;
-}
+} */
 
 body {
   margin: 0;
@@ -61,15 +60,15 @@ body {
 }
 
 @media (max-width: 400px) {
+
 	.toggle-button {
 		display: flex;
 	}
-
+	
 	.navbar {
 		flex-direction: column;
 		align-time: flex-start;
 	}
-
 	.navbar-links ul {
 		width: 100%		
 	}
@@ -85,5 +84,4 @@ body {
 	.navbar-links.active {
 		display: flex;
 	}
-
 }

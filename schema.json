@@ -1,0 +1,33 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlsulliv/Profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlsulliv/Profile/issues"
+  },
+  "homepage": "https://github.com/vlsulliv/Profile#readme",
+  "dependencies": {
+    "@mdn/browser-compat-data": "^5.2.4",
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "prismjs": "^1.29.0"
+  }
+}
+
+
+// src/index.js
+// import { readFileSync } from 'fs';
+
+// const pkg = JSON.parse(readFileSync(new URL('./package.json', import.meta.url), 'utf8'));
+// console.log(`running version ${pkg.version}`);

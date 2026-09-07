@@ -1,35 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vincent Sullivan — Petroleum Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./src/css/style.css">
 </head>
 <body>
-    <html>
-        
-        <body>
-        <nav class="navbar">
-            <div class="brand-title">Vincent</div>
-            <div rel="navbar-links">
-            <a rel="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">ContactMe</a></li>
-                    <li><a href="#">Resume</a></li>
-                </ul>
-            </div>
-        </nav>
 
-    <script href="./src/js/script.js"></script>
+<!-- Depth rail navigation (desktop) -->
+<nav class="rail" aria-label="Section navigation">
+  <div class="rail-line" aria-hidden="true"></div>
+  <ol id="rail-list">
+    <li><a href="#hero" data-target="hero"><span class="label">Surface</span><span class="depth">0 ft</span></a></li>
+    <li><a href="#about" data-target="about"><span class="label">About</span><span class="depth">120 ft</span></a></li>
+    <li><a href="#engineering" data-target="engineering"><span class="label">Engineering</span><span class="depth">1,450 ft</span></a></li>
+    <li><a href="#projects" data-target="projects"><span class="label">Projects</span><span class="depth">2,600 ft</span></a></li>
+    <li><a href="#knowledge" data-target="knowledge"><span class="label">Knowledge</span><span class="depth">3,800 ft</span></a></li>
+    <li><a href="#journal" data-target="journal"><span class="label">Journal</span><span class="depth">5,050 ft</span></a></li>
+    <li><a href="#contact" data-target="contact"><span class="label">Contact</span><span class="depth">6,200 ft</span></a></li>
+  </ol>
+</nav>
+
+<!-- Mobile top nav -->
+<nav class="topnav" aria-label="Section navigation">
+  <ol id="topnav-list">
+    <li><a href="#hero" data-target="hero">Surface</a></li>
+    <li><a href="#about" data-target="about">About</a></li>
+    <li><a href="#engineering" data-target="engineering">Engineering</a></li>
+    <li><a href="#projects" data-target="projects">Projects</a></li>
+    <li><a href="#knowledge" data-target="knowledge">Knowledge</a></li>
+    <li><a href="#journal" data-target="journal">Journal</a></li>
+    <li><a href="#contact" data-target="contact">Contact</a></li>
+  </ol>
+</nav>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="hero" class="band-ink hero">
+    <span class="hero-eyebrow">Personal site — updated 2026</span>
+    <h1>Vincent<br>Sullivan</h1>
+    <p class="hero-role">Petroleum Engineer &middot; Builder &middot; Lifelong Learner</p>
+    <p class="hero-loc">Based in <a href="#contact"> Anchorage, Alaska </a> — working the space between subsurface engineering and the tools used to understand it.</p>
+
+    <div class="logtrace" aria-hidden="true">
+      <svg viewBox="0 0 720 140" preserveAspectRatio="none">
+        <g class="grid">
+          <line x1="0" y1="20" x2="720" y2="20"></line>
+          <line x1="0" y1="70" x2="720" y2="70"></line>
+          <line x1="0" y1="120" x2="720" y2="120"></line>
+        </g>
+        <path id="wellLog" d="M0,70 C30,55 45,90 70,85 C95,80 100,30 130,28 C160,26 165,95 195,100 C225,105 235,50 265,45 C295,40 300,110 330,112 C360,114 370,40 400,35 C430,30 440,100 470,105 C500,110 510,55 540,50 C570,45 580,95 610,90 C640,85 650,35 680,30 C700,27 710,60 720,65"></path>
+      </svg>
+    </div>
+
+    <div class="scrollcue"><span class="bar"></span> Scroll to descend</div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="band-ink seam">
+    <div class="section-head">
+      <span class="kicker">01 — About</span>
+      <h2>Fieldwork, first principles, and a stubborn need to understand how things fail.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="prose">
+        <p>I'm a petroleum engineer who spends as much time in reservoir simulators as in code editors. My work sits at the intersection of subsurface engineering and the tools we use to make sense of it — production data, well logs, and the models that turn both into decisions worth staking money on.</p>
+        <p>Outside of fieldwork, I build things: small internal tools, home automation projects, and the occasional over-engineered spreadsheet. I like problems that reward patience — whether that's a well that takes months to reveal its real behavior, or a piece of code that only starts to make sense on the third rewrite.</p>
+        <p>Lately I've been trying to close the gap between what an engineer knows in their head and what actually gets written down — better notes, better tools, fewer things re-learned the hard way.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>Based</dt><dd>[ City, Country ]</dd></div>
+        <div><dt>Currently</dt><dd>[ Role ] at [ Company ]</dd></div>
+        <div><dt>Focus</dt><dd>Reservoir engineering &amp; production data tooling</dd></div>
+        <div><dt>Learning now</dt><dd>[ Current topic, e.g. reservoir ML ]</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ ENGINEERING ============ -->
+  <section id="engineering" class="band-navy seam">
+    <div class="section-head">
+      <span class="kicker">02 — Engineering</span>
+      <h2>Core disciplines</h2>
+      <p class="prose-dim">The layers I work across most often, roughly ordered by where they sit between reservoir and wellhead.</p>
+    </div>
+    <div class="strata">
+      <div class="stratum">
+        <h3><span class="swatch" style="background:var(--amber)"></span>Reservoir Engineering</h3>
+        <p>Modeling how fluids move underground and translating that behavior into a recovery strategy the rest of the team can act on.</p>
+      </div>
+      <div class="stratum">
+        <h3><span class="swatch" style="background:var(--paper)"></span>Drilling &amp; Completions</h3>
+        <p>Turning a subsurface plan into a well that actually delivers — and adjusting when the rock disagrees with the plan.</p>
+      </div>
+      <div class="stratum">
+        <h3><span class="swatch" style="background:var(--amber)"></span>Production Optimization</h3>
+        <p>Finding the marginal gains between the reservoir and the wellhead: artificial lift, flow assurance, and surface constraints.</p>
+      </div>
+      <div class="stratum">
+        <h3><span class="swatch" style="background:var(--paper)"></span>Simulation &amp; Modeling</h3>
+        <p>Building and stress-testing the models everything else depends on — and knowing when to distrust them.</p>
+      </div>
+      <div class="stratum">
+        <h3><span class="swatch" style="background:var(--amber)"></span>Data &amp; Automation</h3>
+        <p>Writing the scripts and internal tools that make repeat analysis fast, checkable, and less dependent on memory.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="band-navy seam">
+    <div class="section-head">
+      <span class="kicker">03 — Projects</span>
+      <h2>Things I've built</h2>
+      <p class="prose-dim">A mix of field-facing tools and side projects. Replace with your own — titles and links below are placeholders.</p>
+    </div>
+    <div class="cores">
+      <a class="core" href="#" style="--c: var(--amber)">
+        <span class="bar" style="background:var(--amber)"></span>
+        <div>
+          <h3>[ Decline-curve toolkit ]</h3>
+          <p>A small library for fitting and comparing decline models against production history, with sanity checks built in.</p>
+          <div class="tags"><span>Python</span><span>Production data</span></div>
+        </div>
+        <span class="go">View →</span>
+      </a>
+      <a class="core" href="#">
+        <span class="bar" style="background:var(--paper-dim)"></span>
+        <div>
+          <h3>[ Well-log viewer ]</h3>
+          <p>A lightweight browser tool for scanning LAS files without opening a full logging suite — built for quick field checks.</p>
+          <div class="tags"><span>LAS</span><span>Visualization</span></div>
+        </div>
+        <span class="go">View →</span>
+      </a>
+      <a class="core" href="#">
+        <span class="bar" style="background:var(--amber)"></span>
+        <div>
+          <h3>[ Home shop automation ]</h3>
+          <p>A weekend project wiring sensors and a small controller into a home workshop — mostly an excuse to learn embedded systems.</p>
+          <div class="tags"><span>Hardware</span><span>Side project</span></div>
+        </div>
+        <span class="go">View →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ KNOWLEDGE ============ -->
+  <section id="knowledge" class="band-plum seam">
+    <div class="section-head">
+      <span class="kicker">04 — Knowledge</span>
+      <h2>Field notes</h2>
+      <p class="prose-dim">Short technical write-ups — things I wanted to explain clearly enough to not have to re-derive them later.</p>
+    </div>
+    <div class="listing">
+      <div class="entry">
+        <time>[ Mon 2026 ]</time>
+        <div>
+          <a href="#"><h3>[ Reading a decline curve without lying to yourself ]</h3></a>
+          <p>Notes on the common ways decline-curve fits go wrong, and a simple checklist to catch them before they reach a forecast.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <time>[ Mon 2026 ]</time>
+        <div>
+          <a href="#"><h3>[ What a well log actually tells you ]</h3></a>
+          <p>A plain-language walkthrough of gamma ray, resistivity, and porosity logs for anyone who's never had to interpret one.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <time>[ Mon 2026 ]</time>
+        <div>
+          <a href="#"><h3>[ Notes on reservoir simulation history matching ]</h3></a>
+          <p>Where history matching tends to go wrong, and why a "good fit" isn't always a good model.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNAL ============ -->
+  <section id="journal" class="band-plum seam">
+    <div class="section-head">
+      <span class="kicker">05 — Journal</span>
+      <h2>Journal</h2>
+      <p class="prose-dim">Shorter, less polished — a running log of what I'm working through.</p>
+    </div>
+    <div class="listing">
+      <div class="entry">
+        <time>[ Month 2026 ]</time>
+        <div>
+          <h3>[ Entry title ]</h3>
+          <p>A short reflection or update. Replace with a real entry — this is placeholder text describing roughly the length and tone to aim for.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <time>[ Month 2026 ]</time>
+        <div>
+          <h3>[ Entry title ]</h3>
+          <p>A short reflection or update. Replace with a real entry — this is placeholder text describing roughly the length and tone to aim for.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <time>[ Month 2026 ]</time>
+        <div>
+          <h3>[ Entry title ]</h3>
+          <p>A short reflection or update. Replace with a real entry — this is placeholder text describing roughly the length and tone to aim for.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="band-slate seam">
+    <div class="contact-wrap">
+      <span class="kicker">06 — Contact</span>
+      <p class="contact-lead">Open to conversations about reservoir engineering, field data tooling, or anything worth building. Reach out directly.</p>
+      <div class="contact-links">
+        <a href="mailto:vlsullivanhou@gmail.com">vlsullivanhou@gmail.com</a>
+        <a href="https://www.linkedin.com/in/vlsullivan" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://www.github.com/vlsulliv" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>© 2026 Vincent Sullivan</span>
+  <span>Petroleum Engineer · Builder · Lifelong Learner</span>
+</footer>
+
+<script href="./src/js/script.js"></script>
+
 </body>
 </html>
-
-
-

@@ -3,11 +3,11 @@
 Personal profile built around a subsurface-strata concept; the natural visual language for a petroleum engineer. 
 
 ## Table of Contents 
- * [Screenshot](#Screenshot) 
- * [Technologies](#Technologies) 
- * [CodeReference](#CodeReference) 
- * [Contact](#Contact) 
- * [License](#License) 
+ * [Screenshot](#screenshot) 
+ * [Technologies](#technologies) 
+ * [Code Reference](#code-reference) 
+ * [Contact](#contact) 
+ * [License](#license) 
 
 # Screenshot
 
@@ -22,7 +22,7 @@ Javascript
 Google Fonts
 ```
 
-# CodeReference
+# Code Reference
 
 - [Guru99](https://www.guru99.com/interactive-javascript-tutorials.html) 
 - [W3Schools](https://www.w3schools.com) 
